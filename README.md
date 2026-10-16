@@ -25,13 +25,27 @@ Our method:
 
 ## ⚙️ Dependencies
 
+NBDM is implemented in PyTorch with CUDA support. The required dependencies are:
+
 ```text
 numpy<2.0
-torch
+torch==2.1.1+cu118
 pandas
 scipy
 scikit-learn
 matplotlib
+```
+
+To install PyTorch 2.1.1 with CUDA 11.8 support, run:
+
+```bash
+pip install torch==2.1.1+cu118 --index-url https://download.pytorch.org/whl/cu118
+```
+
+Then install the remaining dependencies:
+
+```bash
+pip install "numpy<2.0" pandas scipy scikit-learn matplotlib
 ```
 
 ---
