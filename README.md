@@ -88,11 +88,10 @@ If you find this work useful in your research, please cite:
 
 ```bibtex
 @inproceedings{gao2026beyond,
-  title     = {Beyond Linear Dynamics: Neural Bilinear Dynamical Models for Time Series Forecasting},
-  author    = {Gao, Mengzhou and Yu, Huangqian and Jiao, Pengfei},
-  booktitle = {Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2},
-  year      = {2026},
-  doi       = {10.1145/3770855.3818066},
-  url       = {https://doi.org/10.1145/3770855.3818066}
+  title={Beyond Linear Dynamics: Neural Bilinear Dynamical Models for Time Series Forecasting},
+  author={Gao, Mengzhou and Yu, Huangqian and Jiao, Pengfei},
+  booktitle={Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V. 2},
+  pages={1228--1237},
+  year={2026}
 }
 ```
